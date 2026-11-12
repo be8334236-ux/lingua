@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Lingua</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Lingva - учи языки легко</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lingua</h1>
-  <p>Мой первый сайт</p>
+
+<header>
+  <div class="logo">🌍 My Lingva</div>
+  <nav>
+    <a href="#langs">Языки</a>
+    <a href="#words">Слова</a>
+    <a href="#quiz">Тест</a>
+  </nav>
+  <button class="btn-top">Начать бесплатно</button>
+</header>
+
+<section class="hero">
+  <h1>Учи языки<br><span>без скуки</span></h1>
+  <p>Английский, казахский и русский — по 10 минут в день. Слова, фразы и мини-тесты.</p>
+  <div class="hero-btns">
+    <a href="#langs" class="btn-main">Выбрать язык →</a>
+    <a href="#words" class="btn-white">Смотреть слова</a>
+  </div>
+  <div class="stats">
+    <div><b>3</b><br>языка</div>
+    <div><b>120+</b><br>слов</div>
+    <div><b>15</b><br>уроков</div>
+  </div>
+</section>
+
+<section id="langs">
+  <h2>Выбери свой язык</h2>
+  <div class="cards">
+    <div class="card c1"><h3>🇬🇧 English</h3><p>Для учебы и работы</p><span>Beginner • A1</span><button>Начать</button></div>
+    <div class="card c2"><h3>🇰🇿 Қазақша</h3><p>Для жизни и общения</p><span>Бастауыш • A1</span><button>Начать</button></div>
+    <div class="card c3"><h3>🇷🇺 Русский</h3><p>Грамматика и речь</p><span>Начальный • A1</span><button>Начать</button></div>
+  </div>
+</section>
+
+<section id="words">
+  <h2>Слова дня</h2>
+  <div class="words">
+    <div><b>Hello</b><span>Привет / Сәлем</span></div>
+    <div><b>Thank you</b><span>Спасибо / Рахмет</span></div>
+    <div><b>Book</b><span>Книга / Кітап</span></div>
+    <div><b>Friend</b><span>Друг / Дос</span></div>
+  </div>
+</section>
+
+<section id="quiz">
+  <h2>Быстрый тест</h2>
+  <p>Как будет "Спасибо" на английском?</p>
+  <div class="quiz-btns">
+    <button onclick="alert('Правильно! 🎉')">Thank you</button>
+    <button onclick="alert('Нет, попробуй еще')">Hello</button>
+    <button onclick="alert('Нет, попробуй еще')">Book</button>
+  </div>
+</section>
+
+<footer>Сделано студентом • My Lingva • 2026</footer>
+
 </body>
 </html>
