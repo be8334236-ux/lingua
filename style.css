@@ -1,8 +1,29 @@
-body {
-  text-align: center;
-  font-family: sans-serif;
-  background: #f2f2f2;
-}
-h1 {
-  color: blue;
-}
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background:#FFF6EC; color:#2D3436; }
+header { display:flex; justify-content:space-between; align-items:center; padding:18px 30px; background:white; }
+.logo { font-size:22px; font-weight:800; color:#6C5CE7; }
+nav a { margin:0 12px; text-decoration:none; color:#2D3436; font-weight:600; }
+.btn-top { background:#6C5CE7; color:white; border:none; padding:10px 18px; border-radius:20px; font-weight:bold; }
+.hero { text-align:center; padding:60px 20px; background: linear-gradient(135deg, #6C5CE7, #FD79A8); color:white; border-radius:0 0 40px 40px; }
+.hero h1 { font-size:48px; line-height:1.1; }
+.hero h1 span { color:#FDCB6E; }
+.hero p { margin:18px auto; max-width:500px; font-size:17px; }
+.btn-main { background:#FDCB6E; color:#2D3436; padding:13px 22px; border-radius:25px; text-decoration:none; font-weight:800; display:inline-block; }
+.btn-white { background:white; color:#6C5CE7; padding:13px 22px; border-radius:25px; text-decoration:none; font-weight:800; display:inline-block; margin-left:10px; }
+.stats { display:flex; justify-content:center; gap:40px; margin-top:30px; }
+.stats b { font-size:26px; }
+h2 { text-align:center; margin:40px 0 20px; font-size:28px; }
+.cards { display:flex; gap:16px; justify-content:center; flex-wrap:wrap; padding:0 20px; }
+.card { background:white; padding:22px; border-radius:20px; width:240px; box-shadow:0 5px 15px rgba(0,0,0,0.08); }
+.card h3 { margin-bottom:8px; }
+.card p { color:#636E72; margin-bottom:12px; }
+.card span { background:#DFE6E9; padding:4px 10px; border-radius:12px; font-size:13px; }
+.card button { display:block; margin-top:15px; width:100%; padding:10px; border:none; border-radius:12px; background:#00CEC9; font-weight:bold; cursor:pointer; }
+.words { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; padding:0 20px; }
+.words div { background:white; padding:16px 20px; border-radius:16px; text-align:center; }
+.words b { display:block; font-size:19px; color:#6C5CE7; }
+.words span { color:#636E72; font-size:14px; }
+#quiz { text-align:center; background:white; margin:40px 20px; padding:30px; border-radius:20px; }
+#quiz p { margin:12px 0; font-size:18px; }
+.quiz-btns button { padding:12px 20px; margin:6px; border:2px solid #6C5CE7; background:white; border-radius:20px; font-weight:bold; cursor:pointer; }
+footer { text-align:center; padding:20px; color:#636E72; }
